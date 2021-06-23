@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D632F46C7FF51CC371125F /* Pods_WHNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FBFA91DBF7007F7E975AB /* Pods_WHNetWork.framework */; };
+		5735B2B026802F8E0051B12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B2AF26802F8E0051B12E /* AppDelegate.swift */; };
+		5735B2B426802F8E0051B12E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B2B326802F8E0051B12E /* ViewController.swift */; };
+		5735B2B926802F8F0051B12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5735B2B826802F8F0051B12E /* Assets.xcassets */; };
+		5735B2BC26802F8F0051B12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5735B2BA26802F8F0051B12E /* LaunchScreen.storyboard */; };
+		5735B2C726802F8F0051B12E /* WHNetWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B2C626802F8F0051B12E /* WHNetWorkTests.swift */; };
+		5735B2D226802F8F0051B12E /* WHNetWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B2D126802F8F0051B12E /* WHNetWorkUITests.swift */; };
+		5735B32926805ED80051B12E /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B32326805ED80051B12E /* NetworkTool.swift */; };
+		5735B32A26805ED80051B12E /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B32426805ED80051B12E /* NetworkingError.swift */; };
+		5735B32B26805ED80051B12E /* WHBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B32526805ED80051B12E /* WHBaseModel.swift */; };
+		5735B32C26805ED80051B12E /* NetBaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B32626805ED80051B12E /* NetBaseTargetType.swift */; };
+		5735B32D26805ED80051B12E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B32726805ED80051B12E /* API.swift */; };
+		5735B32E26805ED80051B12E /* NetPublicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5735B32826805ED80051B12E /* NetPublicService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5735B2C326802F8F0051B12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5735B2A426802F8E0051B12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5735B2AB26802F8E0051B12E;
+			remoteInfo = WHNetWork;
+		};
+		5735B2CE26802F8F0051B12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5735B2A426802F8E0051B12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5735B2AB26802F8E0051B12E;
+			remoteInfo = WHNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483E32AF111F502BF2B27C58 /* Pods-WHNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHNetWork.debug.xcconfig"; path = "Target Support Files/Pods-WHNetWork/Pods-WHNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		5735B2AC26802F8E0051B12E /* WHNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5735B2AF26802F8E0051B12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5735B2B326802F8E0051B12E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5735B2B826802F8F0051B12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5735B2BB26802F8F0051B12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5735B2BD26802F8F0051B12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5735B2C226802F8F0051B12E /* WHNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5735B2C626802F8F0051B12E /* WHNetWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHNetWorkTests.swift; sourceTree = "<group>"; };
+		5735B2C826802F8F0051B12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5735B2CD26802F8F0051B12E /* WHNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5735B2D126802F8F0051B12E /* WHNetWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHNetWorkUITests.swift; sourceTree = "<group>"; };
+		5735B2D326802F8F0051B12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5735B32326805ED80051B12E /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		5735B32426805ED80051B12E /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		5735B32526805ED80051B12E /* WHBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHBaseModel.swift; sourceTree = "<group>"; };
+		5735B32626805ED80051B12E /* NetBaseTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetBaseTargetType.swift; sourceTree = "<group>"; };
+		5735B32726805ED80051B12E /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5735B32826805ED80051B12E /* NetPublicService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPublicService.swift; sourceTree = "<group>"; };
+		742FBFA91DBF7007F7E975AB /* Pods_WHNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDD9A19A62C43838909BF77 /* Pods-WHNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHNetWork.release.xcconfig"; path = "Target Support Files/Pods-WHNetWork/Pods-WHNetWork.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5735B2A926802F8E0051B12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D632F46C7FF51CC371125F /* Pods_WHNetWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5735B2BF26802F8F0051B12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5735B2CA26802F8F0051B12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28EBF44F3AFB25BAD4AAA4CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				483E32AF111F502BF2B27C58 /* Pods-WHNetWork.debug.xcconfig */,
+				AFDD9A19A62C43838909BF77 /* Pods-WHNetWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5735B2A326802F8E0051B12E = {
+			isa = PBXGroup;
+			children = (
+				5735B2AE26802F8E0051B12E /* WHNetWork */,
+				5735B2C526802F8F0051B12E /* WHNetWorkTests */,
+				5735B2D026802F8F0051B12E /* WHNetWorkUITests */,
+				5735B2AD26802F8E0051B12E /* Products */,
+				28EBF44F3AFB25BAD4AAA4CE /* Pods */,
+				ABFEDCE47454382B89AD5216 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5735B2AD26802F8E0051B12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5735B2AC26802F8E0051B12E /* WHNetWork.app */,
+				5735B2C226802F8F0051B12E /* WHNetWorkTests.xctest */,
+				5735B2CD26802F8F0051B12E /* WHNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5735B2AE26802F8E0051B12E /* WHNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				5735B32226805ED80051B12E /* Network */,
+				5735B2AF26802F8E0051B12E /* AppDelegate.swift */,
+				5735B2B326802F8E0051B12E /* ViewController.swift */,
+				5735B2B826802F8F0051B12E /* Assets.xcassets */,
+				5735B2BA26802F8F0051B12E /* LaunchScreen.storyboard */,
+				5735B2BD26802F8F0051B12E /* Info.plist */,
+			);
+			path = WHNetWork;
+			sourceTree = "<group>";
+		};
+		5735B2C526802F8F0051B12E /* WHNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5735B2C626802F8F0051B12E /* WHNetWorkTests.swift */,
+				5735B2C826802F8F0051B12E /* Info.plist */,
+			);
+			path = WHNetWorkTests;
+			sourceTree = "<group>";
+		};
+		5735B2D026802F8F0051B12E /* WHNetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5735B2D126802F8F0051B12E /* WHNetWorkUITests.swift */,
+				5735B2D326802F8F0051B12E /* Info.plist */,
+			);
+			path = WHNetWorkUITests;
+			sourceTree = "<group>";
+		};
+		5735B32226805ED80051B12E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5735B32726805ED80051B12E /* API.swift */,
+				5735B32626805ED80051B12E /* NetBaseTargetType.swift */,
+				5735B32826805ED80051B12E /* NetPublicService.swift */,
+				5735B32426805ED80051B12E /* NetworkingError.swift */,
+				5735B32326805ED80051B12E /* NetworkTool.swift */,
+				5735B32526805ED80051B12E /* WHBaseModel.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ABFEDCE47454382B89AD5216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				742FBFA91DBF7007F7E975AB /* Pods_WHNetWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5735B2AB26802F8E0051B12E /* WHNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5735B2D626802F8F0051B12E /* Build configuration list for PBXNativeTarget "WHNetWork" */;
+			buildPhases = (
+				362FCBB60BFDD7135D42466D /* [CP] Check Pods Manifest.lock */,
+				5735B2A826802F8E0051B12E /* Sources */,
+				5735B2A926802F8E0051B12E /* Frameworks */,
+				5735B2AA26802F8E0051B12E /* Resources */,
+				A85F0E7105B5848CAE844DE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHNetWork;
+			productName = WHNetWork;
+			productReference = 5735B2AC26802F8E0051B12E /* WHNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5735B2C126802F8F0051B12E /* WHNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5735B2D926802F8F0051B12E /* Build configuration list for PBXNativeTarget "WHNetWorkTests" */;
+			buildPhases = (
+				5735B2BE26802F8F0051B12E /* Sources */,
+				5735B2BF26802F8F0051B12E /* Frameworks */,
+				5735B2C026802F8F0051B12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5735B2C426802F8F0051B12E /* PBXTargetDependency */,
+			);
+			name = WHNetWorkTests;
+			productName = WHNetWorkTests;
+			productReference = 5735B2C226802F8F0051B12E /* WHNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5735B2CC26802F8F0051B12E /* WHNetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5735B2DC26802F8F0051B12E /* Build configuration list for PBXNativeTarget "WHNetWorkUITests" */;
+			buildPhases = (
+				5735B2C926802F8F0051B12E /* Sources */,
+				5735B2CA26802F8F0051B12E /* Frameworks */,
+				5735B2CB26802F8F0051B12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5735B2CF26802F8F0051B12E /* PBXTargetDependency */,
+			);
+			name = WHNetWorkUITests;
+			productName = WHNetWorkUITests;
+			productReference = 5735B2CD26802F8F0051B12E /* WHNetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5735B2A426802F8E0051B12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5735B2AB26802F8E0051B12E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5735B2C126802F8F0051B12E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5735B2AB26802F8E0051B12E;
+					};
+					5735B2CC26802F8F0051B12E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5735B2AB26802F8E0051B12E;
+					};
+				};
+			};
+			buildConfigurationList = 5735B2A726802F8E0051B12E /* Build configuration list for PBXProject "WHNetWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5735B2A326802F8E0051B12E;
+			productRefGroup = 5735B2AD26802F8E0051B12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5735B2AB26802F8E0051B12E /* WHNetWork */,
+				5735B2C126802F8F0051B12E /* WHNetWorkTests */,
+				5735B2CC26802F8F0051B12E /* WHNetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5735B2AA26802F8E0051B12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5735B2BC26802F8F0051B12E /* LaunchScreen.storyboard in Resources */,
+				5735B2B926802F8F0051B12E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5735B2C026802F8F0051B12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5735B2CB26802F8F0051B12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		362FCBB60BFDD7135D42466D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHNetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85F0E7105B5848CAE844DE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHNetWork/Pods-WHNetWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WHNetWork/Pods-WHNetWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WHNetWork/Pods-WHNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5735B2A826802F8E0051B12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5735B32E26805ED80051B12E /* NetPublicService.swift in Sources */,
+				5735B32B26805ED80051B12E /* WHBaseModel.swift in Sources */,
+				5735B2B426802F8E0051B12E /* ViewController.swift in Sources */,
+				5735B32926805ED80051B12E /* NetworkTool.swift in Sources */,
+				5735B32A26805ED80051B12E /* NetworkingError.swift in Sources */,
+				5735B2B026802F8E0051B12E /* AppDelegate.swift in Sources */,
+				5735B32C26805ED80051B12E /* NetBaseTargetType.swift in Sources */,
+				5735B32D26805ED80051B12E /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5735B2BE26802F8F0051B12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5735B2C726802F8F0051B12E /* WHNetWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5735B2C926802F8F0051B12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5735B2D226802F8F0051B12E /* WHNetWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5735B2C426802F8F0051B12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5735B2AB26802F8E0051B12E /* WHNetWork */;
+			targetProxy = 5735B2C326802F8F0051B12E /* PBXContainerItemProxy */;
+		};
+		5735B2CF26802F8F0051B12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5735B2AB26802F8E0051B12E /* WHNetWork */;
+			targetProxy = 5735B2CE26802F8F0051B12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5735B2BA26802F8F0051B12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5735B2BB26802F8F0051B12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5735B2D426802F8F0051B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5735B2D526802F8F0051B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5735B2D726802F8F0051B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483E32AF111F502BF2B27C58 /* Pods-WHNetWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				INFOPLIST_FILE = WHNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.WHNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5735B2D826802F8F0051B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDD9A19A62C43838909BF77 /* Pods-WHNetWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				INFOPLIST_FILE = WHNetWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.WHNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5735B2DA26802F8F0051B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHNetWorkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.WHNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHNetWork.app/WHNetWork";
+			};
+			name = Debug;
+		};
+		5735B2DB26802F8F0051B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHNetWorkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.WHNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHNetWork.app/WHNetWork";
+			};
+			name = Release;
+		};
+		5735B2DD26802F8F0051B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.WHNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHNetWork;
+			};
+			name = Debug;
+		};
+		5735B2DE26802F8F0051B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WHNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.WHNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WHNetWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5735B2A726802F8E0051B12E /* Build configuration list for PBXProject "WHNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5735B2D426802F8F0051B12E /* Debug */,
+				5735B2D526802F8F0051B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5735B2D626802F8F0051B12E /* Build configuration list for PBXNativeTarget "WHNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5735B2D726802F8F0051B12E /* Debug */,
+				5735B2D826802F8F0051B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5735B2D926802F8F0051B12E /* Build configuration list for PBXNativeTarget "WHNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5735B2DA26802F8F0051B12E /* Debug */,
+				5735B2DB26802F8F0051B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5735B2DC26802F8F0051B12E /* Build configuration list for PBXNativeTarget "WHNetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5735B2DD26802F8F0051B12E /* Debug */,
+				5735B2DE26802F8F0051B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5735B2A426802F8E0051B12E /* Project object */;
+}
